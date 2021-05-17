@@ -7,14 +7,33 @@
 <body>
 <h1>URL Shortener</h1>
 
+{% for message in get_flashed_messages() %}
+<h2>{{ message }}</h2>
+{% endfor %}
+
 <form action="your-url" method="post">
     <label for="url">Website URL</label>
-    <input name="url" type="url" value="" required>
+    <input name="url" required type="url" value="">
     <br>
     <label for="code">Short Name </label>
-    <input name="code" type="text" value="" required>
+    <input name="code" required type="text" value="">
     <br>
     <input type="submit" value="Shorten">
 </form>
+
+<br>
+<br>
+
+
+<form action="your-url" enctype="multipart/form-data" method="post">
+    <label for="file">File</label>
+    <input name="file" required type="file" value="">
+    <br>
+    <label for="code">Short Name </label>
+    <input name="code" required type="text" value="">
+    <br>
+    <input type="submit" value="Shorten">
+</form>
+
 </body>
 </html>
