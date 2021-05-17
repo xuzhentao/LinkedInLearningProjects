@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>This is URL Shortener</title>
-</head>
-<body>
-<h1>URL Shortener</h1>
+{% extends 'base.html' %}
 
-{% for message in get_flashed_messages() %}
-<h2>{{ message }}</h2>
-{% endfor %}
+{% block title %}
+<meta charset="UTF-8">
+<title>Hi welcome Zhentao</title>
+{% endblock %}
+
+{% block main %}
+
 
 <form action="your-url" method="post">
     <label for="url">Website URL</label>
@@ -45,5 +42,4 @@
 {% endif %}
 
 
-</body>
-</html>
+{% endblock %}
