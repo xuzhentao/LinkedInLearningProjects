@@ -23,13 +23,11 @@ public class IteratorExample {
         Collection collection = Arrays.asList("Orange", "Apple", "Banana");
         System.out.println(collection);
 
-
         Iterator iterator = collection.iterator();
         System.out.println(iterator);
 
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+        while (iterator.hasNext()) System.out.println(iterator.next());
+
 
     }
 
