@@ -33,11 +33,8 @@ public class LinkedListExample {
         while (iterator.hasPrevious()) {
             System.out.println(iterator.previous());
         }
-
-
     }
-
-
 }
+
 
 
