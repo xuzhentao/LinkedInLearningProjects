@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1tHxCaf2Np9TKG4tCkbI0hRNMky" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="abc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="100 100" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickUnionImproveUF" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickUnionImproveUF" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SocialNetworkConnectivity" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SocialNetworkConnectivity" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnionFindImprovementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFindImprovementTest" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnionFindTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="UnionFindTest" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.UnionFindImprovementTest" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2240" y="-202" key="#Plugins" timestamp="1622440028722">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="-202" key="#Plugins/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622440028722" />
+    <state x="2705" y="-71" key="#xdebugger.evaluate" timestamp="1622929391726">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state x="2705" y="-71" key="#xdebugger.evaluate/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622929391726" />
+    <state x="2705" y="-71" key="#xdebugger.evaluate/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915455194" />
+    <state width="441" height="466" key="DebuggerActiveHint" timestamp="1622698597429">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state width="441" height="466" key="DebuggerActiveHint/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622698597429" />
+    <state width="1680" height="310" key="GridCell.Tab.0.bottom" timestamp="1623009615064">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1920" height="310" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1623006758837" />
+    <state width="1680" height="310" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1623009615064" />
+    <state width="1920" height="433" key="GridCell.Tab.0.bottom/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622916294472" />
+    <state width="1680" height="310" key="GridCell.Tab.0.center" timestamp="1623009615063">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1920" height="310" key="GridCell.Tab.0.center/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1623006758836" />
+    <state width="1680" height="310" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1623009615063" />
+    <state width="1920" height="433" key="GridCell.Tab.0.center/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622916294470" />
+    <state width="1680" height="310" key="GridCell.Tab.0.left" timestamp="1623009615062">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1920" height="310" key="GridCell.Tab.0.left/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1623006758835" />
+    <state width="1680" height="310" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1623009615062" />
+    <state width="1920" height="433" key="GridCell.Tab.0.left/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622916294469" />
+    <state width="1680" height="310" key="GridCell.Tab.0.right" timestamp="1623009615064">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1920" height="310" key="GridCell.Tab.0.right/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1623006758836" />
+    <state width="1680" height="310" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1623009615064" />
+    <state width="1920" height="433" key="GridCell.Tab.0.right/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622916294471" />
+    <state width="1920" height="385" key="GridCell.Tab.1.bottom" timestamp="1622930443421">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="385" key="GridCell.Tab.1.bottom/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622930443421" />
+    <state width="1680" height="383" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1622501415749" />
+    <state width="1920" height="394" key="GridCell.Tab.1.bottom/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915499427" />
+    <state width="1920" height="385" key="GridCell.Tab.1.center" timestamp="1622930443420">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="385" key="GridCell.Tab.1.center/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622930443420" />
+    <state width="1680" height="383" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1622501415748" />
+    <state width="1920" height="394" key="GridCell.Tab.1.center/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915499426" />
+    <state width="1920" height="385" key="GridCell.Tab.1.left" timestamp="1622930443419">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="385" key="GridCell.Tab.1.left/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622930443419" />
+    <state width="1680" height="383" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1622501415747" />
+    <state width="1920" height="394" key="GridCell.Tab.1.left/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915499425" />
+    <state width="1920" height="385" key="GridCell.Tab.1.right" timestamp="1622930443421">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="385" key="GridCell.Tab.1.right/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622930443421" />
+    <state width="1680" height="383" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1622501415748" />
+    <state width="1920" height="394" key="GridCell.Tab.1.right/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915499426" />
+    <state x="2128" y="-269" key="SettingsEditor" timestamp="1622915077034">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state x="2128" y="-269" key="SettingsEditor/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622915077034" />
+    <state x="552" y="424" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1622500261650">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="552" y="424" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1622500261650" />
+    <state x="2341" y="-218" width="598" height="735" key="find.popup" timestamp="1622924314931">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state x="2341" y="-218" width="598" height="735" key="find.popup/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622924314931" />
+    <state x="2305" y="-149" width="670" height="676" key="search.everywhere.popup" timestamp="1622932458437">
+      <screen x="1680" y="-390" width="1920" height="1080" />
+    </state>
+    <state x="2305" y="-149" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-390.1920.1080@1680.-390.1920.1080" timestamp="1622932458437" />
+    <state x="2305" y="-149" width="670" height="676" key="search.everywhere.popup/1680.-390.1920.1080/0.0.1680.1050@1680.-390.1920.1080" timestamp="1622697009650" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UnionFindTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
