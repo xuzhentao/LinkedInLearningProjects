@@ -22,12 +22,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
         RandomizedQueue<Integer> queue = new RandomizedQueue<>();
         queue.enqueue(489);
-        queue.size();
-        queue.dequeue();
-        queue.isEmpty();
         queue.enqueue(127);
-
-
     }
 
     // add the item
@@ -39,6 +34,24 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             doubleArraySize();
         }
         resizeableArray[size++] = item;
+    }
+
+    private boolean whetherDoubleSize() {
+        return isArrayFull();
+    }
+
+    private void doubleArraySize() {
+        arraySize *= 2;
+        Item[] oldResizeableArray = resizeableArray;
+        resizeableArray = (Item[]) new Object[arraySize];
+        for (int idx = 0; idx < size; idx++) {
+            resizeableArray[idx] = oldResizeableArray[idx];
+        }
+    }
+
+    // resizableArray utilities
+    private boolean isArrayFull() {
+        return size == arraySize;
     }
 
     // return the number of items on the randomized queue
@@ -70,19 +83,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return size == 0;
     }
 
-    private boolean whetherDoubleSize() {
-        return isArrayFull();
-    }
-
-    private void doubleArraySize() {
-        arraySize *= 2;
-        Item[] oldResizeableArray = resizeableArray;
-        resizeableArray = (Item[]) new Object[arraySize];
-        for (int idx = 0; idx < size; idx++) {
-            resizeableArray[idx] = oldResizeableArray[idx];
-        }
-    }
-
     private boolean whetherShrinkSize() {
         return arraySize / 2 >= size && arraySize >= 2;
     }
@@ -101,11 +101,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
     }
 
-    // resizableArray utilities
-    private boolean isArrayFull() {
-        return size == arraySize;
-    }
-
     // return an independent iterator over items in random order
     public Iterator<Item> iterator() {
         return new LinkedIterator();
@@ -122,7 +117,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     private class LinkedIterator implements Iterator<Item> {
 
         final int n;
-        final private Item[] arr;
+        private final Item[] arr;
         int currIdx = 0;
 
 
