@@ -1,0 +1,17 @@
+task clean(type: Delete){
+    delete "build"
+}
+
+task copyFiles(type: Copy){
+    from "src/main/doc"
+    into "build/doc"
+    dependsOn clean
+}
+
+
+task createZip(type: Zip){
+    from "build/doc"
+    archiveFileName = "docs.zip"
+    destinationDirectory = file("build/dist/")
+    dependsOn copyFiles
+}
