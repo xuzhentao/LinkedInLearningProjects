@@ -1,6 +1,4 @@
-task clean(type: Delete){
-    delete "build"
-}
+apply plugin: "base"
 
 task copyFiles(type: Copy){
     from "src/main/doc"
@@ -11,7 +9,7 @@ task copyFiles(type: Copy){
 
 task createZip(type: Zip){
     from "build/doc"
-    archiveFileName = "docs.zip"
-    destinationDirectory = file("build/dist/")
+//    archiveFileName = "docs.zip"
+//    destinationDirectory = file("build/dist/")
     dependsOn copyFiles
 }

@@ -1,12 +1,7 @@
 task helloWorld {
-
     doLast {
-
         println "hello world, version =" + version
-
     }
-
-
 }
 
 task byeWorld {

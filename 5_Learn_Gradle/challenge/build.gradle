@@ -1,0 +1,20 @@
+apply plugin: "base"
+task tarTask(type:Tar){
+    include "*.txt"
+    into 'text'
+    compression Compression.GZIP
+    from "./src"
+    dependsOn clean
+    rename '(.+).txt', '$1.text'
+
+    doFirst{
+        println "Creating Tar Files"
+    }
+}
+
+task newTask{
+    doLast{
+        println "doLast called"
+    }
+    dependsOn tarTask
+}
